@@ -3,7 +3,6 @@
 # @return {Integer}
 def remove_element(nums, val)
     nums.replace(nums.select { |el| el != val })
-    p nums
     nums.length
 end
 
