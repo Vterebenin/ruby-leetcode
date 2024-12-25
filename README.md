@@ -5,7 +5,7 @@ This project provides a structured approach to solving Leetcode problems using R
 ## Features
 
 - **Create new solution files**: Generate a new solution template for any Leetcode problem, categorized by problem type.
-- **Run all tests**: Run all your solution tests with a single command.
+- **Run all tests**: Run all solution tests with a single command.
 - **Task help**: Get detailed information on available Rake tasks to help you navigate the project.
 - **Organized structure**: Store problems under specific categories (e.g., Two Pointers, Dynamic Programming) for better organization.
 
