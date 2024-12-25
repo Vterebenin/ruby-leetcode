@@ -32,8 +32,8 @@ This project provides a structured approach to solving Leetcode problems using R
 ├── README.md
 ```
 
-- `solutions/`: Contains your Leetcode solutions categorized by problem types.
-- `tests/`: Contains tests corresponding to your solutions.
+- `solutions/`: Contains Leetcode solutions categorized by problem types.
+- `tests/`: Contains tests corresponding to solutions.
 - `tasks/`: Contains Rake tasks to automate various processes.
 - `README.md`: Project documentation.
 
@@ -42,7 +42,7 @@ This project provides a structured approach to solving Leetcode problems using R
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/leetcode-solutions.git
+   git clone https://github.com/vterebenin/leetcode-solutions.git
    cd leetcode-solutions
    ```
 
