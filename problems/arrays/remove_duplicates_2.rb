@@ -2,7 +2,7 @@ MAX_ITEMS = 2
 
 # @param {Integer[]} nums
 # @return {Integer}
-def remove_duplicates(nums)
+def remove_duplicates_second(nums)
   return nums.length if nums.length < 2
 
   prev_idx = 0
@@ -25,5 +25,3 @@ def remove_duplicates(nums)
   nums.replace(buffer)
   buffer.length
 end
-
-p remove_duplicates([1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 5])
