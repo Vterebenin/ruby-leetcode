@@ -1,5 +1,6 @@
 # @param {Integer[]} citations
 # @return {Integer}
+
 def h_index(citations)
   citations.sort! { |a, b| a <=> b }
   buffer = []

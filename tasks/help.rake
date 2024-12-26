@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 namespace :help do
-  desc "List available Rake tasks"
+  desc 'List available Rake tasks'
   task :print do
     puts "\nAvailable Rake Tasks:"
-    puts "======================"
+    puts '======================'
     Rake.application.tasks.each do |task|
       next if task.comment.nil? || task.name =~ /^rake[[:space:]]/
 
